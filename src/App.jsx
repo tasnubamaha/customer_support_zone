@@ -8,6 +8,7 @@ import ticketsData from '../public/tickets.json'
 import { toast, ToastContainer } from 'react-toastify';
 import TicketStatus from './components/TicketStatus/TicketStatus';
 import TicketCard from './components/TicketCard/TicketCard';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [tickets, setTickets] = useState(ticketsData);
@@ -63,6 +64,8 @@ function App() {
       </div>
 
       <ToastContainer position="top-right" />
+      <Footer></Footer>
+
       </div>
   )
 }
