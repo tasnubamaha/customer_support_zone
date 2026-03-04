@@ -56,8 +56,8 @@ function App() {
         {/* RIGHT SIDE */}
       
        <div>
-        <h2 className='text-black ml-4 text-2xl font-bold'>Task Status</h2>
-         <TicketStatus inProgress={inProgress}
+        <h2 className='text-black ml-4 pb-4 text-2xl font-bold'>Task Status</h2>
+         <TicketStatus inProgress={inProgress}   resolved={resolved}
           onComplete={handleComplete}></TicketStatus>
        </div>
       </div>
