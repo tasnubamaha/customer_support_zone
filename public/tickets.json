@@ -88,5 +88,50 @@
     "priority": "Medium",
     "status": "Open",
     "createdAt": "2026-01-24"
+  },
+  {
+    "id": 11,
+    "title": "Login Timeout",
+    "description": "Users are logged out automatically after 5 minutes.",
+    "customer": "Ethan Harris",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-01-25"
+  },
+  {
+    "id": 12,
+    "title": "Search Function Not Working",
+    "description": "Search results return no matches even for valid queries.",
+    "customer": "Mia Robinson",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-01-26"
+  },
+  {
+    "id": 13,
+    "title": "Payment Gateway Timeout",
+    "description": "Payments fail due to gateway timing out during checkout.",
+    "customer": "Noah Walker",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-01-27"
+  },
+  {
+    "id": 14,
+    "title": "Notification Settings Issue",
+    "description": "Users cannot enable or disable push notifications.",
+    "customer": "Ava Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-01-28"
+  },
+  {
+    "id": 15,
+    "title": "Report Download Fails",
+    "description": "Monthly reports cannot be downloaded as PDF.",
+    "customer": "William King",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-01-29"
   }
 ]
